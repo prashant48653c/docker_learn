@@ -1,0 +1,1000 @@
+  483  ls
+  484  cd Desktop/
+  485  ls
+  486  cd project/
+  487  ls
+  488  cd ..
+  489  rm -rf project/
+  490  ls
+  491  mkdir projects
+  492  cd projects/
+  493  git clone git@github.com:prashant48653c/portfolio.git
+  494  ls
+  495  cd portfolio/
+  496  git branch
+  497  sudo apt update
+  498  sudo apt install wget gpg -y
+  499  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+  500  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+  501  echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+  502  rm -f packages.microsoft.gpg
+  503  sudo apt update
+  504  sudo apt install code -y
+  505  code --version
+  506  code
+  507  code .
+  508  ls
+  509  man init
+  510  init 0
+  511  npm i
+  512  ls
+  513  clear
+  514  exit
+  515  code
+  516  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+  517  source ~/.bashrc
+  518  nvm install node
+  519  nvm alias default node
+  520  node -v
+  521  npm -v
+  522  corepack enable
+  523  which node
+  524  npm -v
+  525  node -v
+  526  npm install -g pnpm
+  527  pnpm -v
+  528  npm i
+  529  npm run dev
+  530  git add .
+  531  git commit -m "Blog added"
+  532  git config --global user.name "prashant48653c"
+  533  git config --global user.email "acharyaprashant227@gmail.com"
+  534  git add .
+  535  git commit -m "Blog added"
+  536  git push orign main 
+  537  ls
+  538  git push orign main
+  539  git push origin main
+  540  init 0
+  541  brave-browser &
+  542  init 0
+  543  ls
+  544  hostname
+  545  whoami
+  546  exit
+  547  ls
+  548  pwd 
+  549  cd Desktop/linuxlearning/grasshopper/day1/
+  550  ls
+  551  pwd
+  552  cd 
+  553  ls
+  554  ln [200~/home/rudy/Desktop/linuxlearning/grasshopper/day1
+  555  ~ln /home/rudy/Desktop/linuxlearning/grasshopper/day1/peanut.txt 
+  556  ln /home/rudy/Desktop/linuxlearning/grasshopper/day1/peanut.txt 
+  557  ls
+  558  vim /home/rudy/Desktop/linuxlearning/grasshopper/day1/peanut.txt 
+  559  cat peanut.txt 
+  560  rm /home/rudy/Desktop/linuxlearning/grasshopper/day1/peanut.txt 
+  561  ls
+  562  cat peanut.txt 
+  563  ls
+  564  clear
+  565  df
+  566  df -h
+  567  du
+  568  du .
+  569  cd Desktop/
+  570  ls
+  571  du .
+  572  ls
+  573  cd linuxlearning/
+  574  du -h
+  575  du .
+  576  du -h
+  577  fuser
+  578  free
+  579  free -h
+  580  vmstat
+  581  clear
+  582  vmstat
+  583  vmstat -a
+  584  vmstat -ah
+  585  vmstat -h
+  586  vmstat -a
+  587  vmstat 5
+  588  clear
+  589  disk
+  590  di
+  591  dh
+  592  df -h
+  593  df -hT
+  594  sudo dmidecode -t memory
+  595  clear
+  596  sudo dmidecode -t memory
+  597  lsblk -o NAME,SIZE,TYPE,MODEL
+  598  sudo nvme id-ctrl /dev/nvme0
+  599  lspci -vv | grep -i -A20 nvme
+  600  uname -a
+  601  uptime
+  602  nproc
+  603  who
+  604  whoam i
+  605  show am i
+  606  whoami
+  607  clear
+  608  code --version
+  609  which code
+  610  cat /usr/bin/code
+  611  ls
+  612  id
+  613  uid
+  614  id
+  615  ip a
+  616  sudo apt update
+  617  sudo systemctl enable ssh
+  618  sudo apt install openssh-server -y
+  619  sudo systemctl enable ssh
+  620  sudo systemctl start ssh
+  621  systemctl status ssh
+  622  clear
+  623  ip a
+  624  ls
+  625  cd grasshopper/
+  626  ls
+  627  cd day2
+  628  ls
+  629  cat file 
+  630  echo " hahhahah" > file 
+  631  cat file 
+  632  umask
+  633  id
+  634  ll 
+  635  umask file 
+  636  ll
+  637  umask
+  638  touch ho
+  639  ll
+  640  umask 764
+  641  umask
+  642  touch hahaha
+  643  ll
+  644  umask 0764
+  645  touch yaya
+  646  ll
+  647  umask
+  648  umask 0000
+  649  touch hoi
+  650  ll
+  651  umask 0002
+  652  touch hom
+  653  ll
+  654  umask 0022
+  655  touch hiiii
+  656  ll
+  657  umask 0002
+  658  ll
+  659  umask 0000
+  660  umask
+  661  touch yaip
+  662  ls
+  663  ll
+  664  umask 0002
+  665  touch hipi
+  666  ls
+  667  ll
+  668  touch hipi
+  669  sudo shutdown
+  670  ls
+  671  ls / -R
+  672  clear
+  673  brave-browser google.com &
+  674  jobs
+  675  clear
+  676  ls
+  677  cd projects/
+  678  ls
+  679  sudo apt install code
+  680  clear
+  681  reboot now
+  682  sudo reboot now
+  683  ssh
+  684  ssh -p 8022 u0_a88@100.122.243.51
+  685  ssh -v -p 8022 u0_a88@100.122.243.51
+  686  ping 100.122.243.51
+  687  curl -fsSL https://tailscale.com/install.sh | sh
+  688  sudo tailscale up
+  689  ls
+  690  sudo tailscale up
+  691  sudo apt clean
+  692  sudo apt update
+  693  sudo apt install tailscale
+  694  tailscale version
+  695  sudo tailscale up
+  696  tailscale status
+  697  ping 100.122.243.51
+  698  exit
+  699  sudo reboot now
+  700  init 0
+  701  ssh -p 8022 u0_a88@100.118.61.12
+  702  scp -P 8022 u0_a88@100.118.61.12:~/storage/pictures/facebook/music_backup.tar.gz .
+  703  ls
+  704  tar -xzvf music_backup.tar.gz
+  705  ls
+  706  xdg-open 1738151068173.jpg 
+  707  ls
+  708  rm rm -i *.jpg
+  709  ls
+  710  rm *.jpg
+  711  ls
+  712  cat archive 
+  713  rm archive 
+  714  ls
+  715  rm music_backup.tar.gz 
+  716  ls
+  717  ping google.com
+  718  ping prasant.is-a.dev 
+  719  netstat
+  720  sudo apt install net-tools 
+  721  netstat 
+  722  sudo tailscale down
+  723  netstat
+  724  clear
+  725  netstat
+  726  tailscale status
+  727  ifconfig
+  728  ip
+  729  whois
+  730  sudo apt install whois
+  731  reboot now
+  732  sudo reboot now
+  733  brave-browser &
+  734  jobs
+  735  sudo shutdown now
+  736  dp
+  737  df
+  738  df -h
+  739  free
+  740  free -h
+  741  ln -s
+  742  stat
+  743  stat banana.txt 
+  744  dirname
+  745  whoami
+  746  uptime
+  747  watch
+  748  w
+  749  sudo reboot now
+  750  sudo shutdown now
+  751  sudo apt update && sudo apt upgrade 
+  752  init 0
+  753  ls
+  754  rm banana.txt 
+  755  ls
+  756  mpg baban.mp3
+  757  clear
+  758  ls
+  759  rm peanut.txt 
+  760  ls
+  761  cd snap/
+  762  ls
+  763  brave-browser &&
+  764  cd /
+  765  brave-browser &
+  766  sudo tailscale up
+  767  ls
+  768  sudo tailscale status
+  769  ssh -p 8022 u0_a88@100.118.61.12
+  770  ls
+  771  find music_backup.tar.gz
+  772  find / music_backup.tar.gz
+  773  ssh -p 8022 u0_a88@100.118.61.12
+  774  scp -P 8022 u0_a88@100.118.61.12:~/storage/pictures/facebook/music_backup.tar.gz .
+  775  sudo scp -P 8022 u0_a88@100.118.61.12:~/storage/pictures/facebook/music_backup.tar.gz .
+  776  ls
+  777  mkdir mymobile
+  778  sudo mv music_backup.tar.gz home/rudy/Desktop/myfile
+  779  ls
+  780  cd home/rudy
+  781  ls
+  782  cd Desktop/
+  783  ls
+  784  cd myfile
+  785  cat myfile
+  786  ls
+  787  rm myfile 
+  788  ls
+  789  sudo scp -P 8022 u0_a88@100.118.61.12:~/storage/pictures/facebook/music_backup.tar.gz .
+  790  ls
+  791  tar -xf music_backup.tar.gz 
+  792  ls
+  793  xdg-open FB_IMG_17383166309317577.jpg 
+  794  ls
+  795  cp *jpg /ho
+  796  ls
+  797  mkdir ho
+  798  cp *jpg /ho
+  799  cp *jpg ho/
+  800  ls
+  801  cd ho/
+  802  ls
+  803  xdg-open *
+  804  xdg-open -r 
+  805  xdg-open -r *
+  806  sudo apt install feh
+  807  feh *jpg
+  808  clear
+  809  sudo tailscale down
+  810  ls
+  811  tailscale status
+  812  ls[
+  813  pw sshd
+  814  pw -name sshd
+  815  ps -name sshd
+  816  sudo shutdown now
+  817  ip a
+  818  sudo shutdown now
+  819  curl ifconfig.me -s
+  820  ls
+  821  ifconfig 
+  822  man ipconfig
+  823  man ifconfig 
+  824  ifconfig -a
+  825  ipconfig -s
+  826  ifconfig -s
+  827  sudo tailscale status
+  828  ls
+  829  curl ifconfig.me -s
+  830  sudo shutdown now
+  831  ls
+  832  sudo shutdown now
+  833  nslookup -type=mx gmail.com
+  834  nslookup google.com
+  835  dig google.com
+  836  dig facebook.com
+  837  nslookup facebook.com
+  838  ls
+  839  clear
+  840  nslookup prasant.is-a.dev
+  841  sudo tcpdump -c 5
+  842  sudo shutdown now
+  843  ls
+  844  cd Desktop/
+  845  ls
+  846  cd linuxlearning/
+  847  ls
+  848  mkdir networks
+  849  cd net
+  850  cd networks/
+  851  ls
+  852  pwd
+  853  cd ../..
+  854  cd /
+  855  cd ls
+  856  ls
+  857  cd ~
+  858  ln /home/rudy/Desktop/linuxlearning/networks
+  859  ls
+  860  cd Desktop/
+  861  ln -s /home/rudy/Desktop/linuxlearning/networks
+  862  ls
+  863  cd networks
+  864  ls
+  865  ping google.com
+  866  ping prasant.is-a.dev
+  867  clear
+  868  ls
+  869  netstat 
+  870  ss
+  871  ss -tulnp
+  872  clea
+  873  rclear
+  874  clear
+  875  ifconfig 
+  876  traceroute
+  877  traceroute youtube.com
+  878  sudo apt install traceroute inetutils-traceroute 
+  879  traceroute
+  880  traceroute youtube.com
+  881  tracepath 
+  882  tracepath youtube.com
+  883  mtr
+  884  mtr youtube.com
+  885  nslookup youtube.com
+  886  nslookup youtusfdafsdbe.com
+  887  hostname
+  888  sudo hostname prasant.is-a.dev
+  889  sudo shutdown now
+  890  netstat 
+  891  [200~ss -tulnp | grep 50882~
+  892  ss -tulnp | grep 50882
+  893  ss -tulnp
+  894  netstat
+  895  sudo netstat -tulnp | grep 50882
+  896  sudo lsof -i :50882
+  897  tracepath google.com
+  898  clear
+  899  mtr google.com
+  900  mtr -h google.com
+  901  mtr google.com
+  902  nslookup
+  903  nslookup google.com
+  904  nslookup google.com 8.8.8.8
+  905  nslookup google.com 1.1.1.1
+  906  nslookup -type=mx gmail.com
+  907  nslookup -type=ns google.com
+  908  nslookup 142.250.206.142
+  909  host
+  910  host google.com
+  911  host outlook.com
+  912  whois
+  913  whois google.com
+  914  clear
+  915  hostname
+  916  hostname google.com
+  917  cat /etc/host
+  918  cat /etc/hosts
+  919  ip address show
+  920  ip if iw
+  921  iwconfig
+  922  sudo apt wireless-tools
+  923  iwconfig
+  924  ip route | grep default
+  925  sudo apt install speedtest-cli
+  926  ethtool eth0
+  927  sudo ethtool eth0
+  928  iwconfig
+  929  ethtool wlan0
+  930  sudo ethtool wlan0
+  931  speedtest
+  932  nload
+  933  iftop
+  934  sudo apt install iftop
+  935  iftop
+  936  sudo iftop
+  937  ip a
+  938  sudo iftop -i wlan0
+  939  iftop
+  940  sudo iftop
+  941  arp -a
+  942  sudo nmap -sn 192.168.1.0/24
+  943  nmap
+  944  sudo apt install nmap
+  945  dig prasant.is-a.dev
+  946  whois prasant.is-a.dev
+  947  whois google.com
+  948  nc
+  949  nc google.com 443
+  950  nc -zv google.com 443
+  951  arp
+  952  clear
+  953  curl -X GET https://jsonplaceholder.typicode.com/todos/1
+  954  curl https://jsonplaceholder.typicode.com/todos/1
+  955  curl -X POST https://jsonplaceholder.typicode.com/todos/1  -H "Content-Type: application/json"   -d '{"name":"ram","age":20}'
+  956  ls
+  957  curl -X POST https://jsonplaceholder.typicode.com/posts   -H "Content-Type: application/json"   -d '{"title":"hello","body":"this is my post","userId":1}'
+  958  curl -X PUT https://jsonplaceholder.typicode.com/posts/1   -H "Content-Type: application/json"   -d '{"title":"updated title","body":"updated body","userId":1}'
+  959  curl -X https://jsonplaceholder.typicode.com/todos/1
+  960  curl -X GET https://jsonplaceholder.typicode.com/todos/1
+  961  sudo apt install jq
+  962  curl -X GET https://jsonplaceholder.typicode.com/todos/1 |jq
+  963  ls
+  964  cd Downloads/
+  965  ls
+  966  wget https://mega.nz/folder/RRoWDS7Z#kmLop4vOpHEEMrpn20hm0g/folder/NVhTWDBD
+  967  ls
+  968  mv RRoWDS7Z RRoWDS7Z.mp4
+  969  ls
+  970  vls
+  971  vlc
+  972  vlc RRoWDS7Z.mp4 
+  973  ls
+  974  mv RRoWDS7Z.mp4 RRoWDS7Z
+  975  ls
+  976  rm RRoWDS7Z 
+  977  ls
+  978  clear
+  979  watch ls
+  980  watch top
+  981  nmap
+  982  sudo apt install nmap
+  983  nmap google.com -v
+  984  route
+  985  sudo shutdown now
+  986  sudo reboot now
+  987  ls
+  988  cd Desktop/
+  989  ls
+  990  mkdir bash_scripts
+  991  cd bash_scripts/
+  992  vim vid1
+  993  ls
+  994  vid1
+  995  cat vid1 
+  996  chmod +x vid1 
+  997  ls
+  998  vid1
+  999  ./vid1 
+ 1000  bash vid1 
+ 1001  clear
+ 1002  ls
+ 1003  myname="Prashant"
+ 1004  echo myname
+ 1005  echo $myname
+ 1006  clear
+ 1007  echo $myname
+ 1008  ls
+ 1009  vim vid2
+ 1010  chmod +x vid2
+ 1011  ls
+ 1012  ll
+ 1013  ./vid2
+ 1014  nano vid2
+ 1015  ls
+ 1016  ./vid2
+ 1017  ls
+ 1018  echo " the current date is $time"
+ 1019  haha=$(./vid1)
+ 1020  echo haha
+ 1021  echo $haha
+ 1022  clear
+ 1023  nano vid3
+ 1024  ./vid3
+ 1025  chmod +x vid3
+ 1026  ./vid3
+ 1027  vim vid3
+ 1028  ls
+ 1029  bash vid3
+ 1030  expr 50 * 4
+ 1031  expr 50 /* 4
+ 1032  expr 50 \* 4
+ 1033  sudo shutdown now
+ 1034  ls
+ 1035  cd Desktop/
+ 1036  ls
+ 1037  cd bash_scripts/
+ 1038  ls
+ 1039  vim vid4
+ 1040  chmod -x vid4
+ 1041  ls
+ 1042  vim vid4
+ 1043  ls
+ 1044  ./vid4
+ 1045  chmod -x vid4
+ 1046  ls
+ 1047  ll
+ 1048  sudo chmod -x vid4
+ 1049  ls
+ 1050  ll
+ 1051  vim vid3
+ 1052  vim vid4
+ 1053  ls
+ 1054  chmod +x vid4
+ 1055  ls
+ 1056  ./vid4
+ 1057  vim vid4
+ 1058  ./vid4
+ 1059  vim vid4
+ 1060  ./vid4
+ 1061  vim vid4
+ 1062  ./vid4
+ 1063  vim vid4
+ 1064  ./vid4
+ 1065  vim vid4
+ 1066  ./vid4
+ 1067  vim vid4
+ 1068  vim filecheck
+ 1069  sudo chmod +x filecheck 
+ 1070  ls
+ 1071  ./filecheck 
+ 1072  vim filecheck 
+ 1073  which htop
+ 1074  which bash
+ 1075  which
+ 1076  which ls
+ 1077  vim viewpackage
+ 1078  ls
+ 1079  chmod +x viewpackage 
+ 1080  ls
+ 1081  ./viewpackage 
+ 1082  vim viewpackage 
+ 1083  ./viewpackage 
+ 1084  vim viewpackage 
+ 1085  ls
+ 1086  ./viewpackage 
+ 1087  neofetch 
+ 1088  ls
+ 1089  sudo shutdown now
+ 1090  cd Desktop/
+ 1091  ls
+ 1092  cd bash_scripts/
+ 1093  ls
+ 1094  cat viewpackage 
+ 1095  clear
+ 1096  ls -l /misc
+ 1097  ls -l /etc/
+ 1098  echo $?
+ 1099  ls -l /sdfsf
+ 1100  echo $?
+ 1101  clear
+ 1102  lsdfjsf
+ 1103  echo $?
+ 1104  vim exitcode
+ 1105  chmod +x exitcode 
+ 1106  ls
+ 1107  ./exitcode 
+ 1108  clear
+ 1109  vim exitcode 
+ 1110  ls
+ 1111  ./exitcode 
+ 1112  ls
+ 1113  vim exitcode 
+ 1114  ls
+ 1115  ./exitcode 
+ 1116  ls
+ 1117  clear
+ 1118  ls
+ 1119  vim exitcode 
+ 1120  ls
+ 1121  ./viewpackage 
+ 1122  ./exitcode 
+ 1123  ls
+ 1124  cat installation.log 
+ 1125  fg
+ 1126  bg
+ 1127  ls
+ 1128  vim exitcode 
+ 1129  ./exitcode 
+ 1130  ls
+ 1131  cat failure.log 
+ 1132  clear
+ 1133  ls
+ 1134  vim direc
+ 1135  ls
+ 1136  chmod +x direc
+ 1137  ls
+ 1138  ./direc 
+ 1139  ls /etc
+ 1140  clear
+ 1141  vim direc 
+ 1142  ./direc 
+ 1143  vim direc 
+ 1144  ./direc 
+ 1145  vim direc 
+ 1146  ls
+ 1147  ./direc 
+ 1148  vim while
+ 1149  ls
+ 1150  chmod +x while 
+ 1151  ./while 
+ 1152  echo $?
+ 1153  exit 33
+ 1154  echo $?
+ 1155  ls
+ 1156  npm run dev
+ 1157  sudo shutdown now
+ 1158  mv contest.js content.js
+ 1159  zip -r focus-mode.zip .
+ 1160  ls
+ 1161  cd Desktop/
+ 1162  ls
+ 1163  cd projects/
+ 1164  ls
+ 1165  mkdir no_notify
+ 1166  ls
+ 1167  cd no_notify/
+ 1168  code
+ 1169  code .
+ 1170  sudo shutdown now
+ 1171  ls
+ 1172  cd Desktop/
+ 1173  ls
+ 1174  cd projects/
+ 1175  ls
+ 1176  mkdir redis_learn
+ 1177  cd red
+ 1178  cd redis_learn/
+ 1179  code .
+ 1180  cd ~/Downloads/
+ 1181  ls
+ 1182  sudo apt install ./Redis-Insight-linux-amd64.deb 
+ 1183  redis-cli -u redis://default:KvVXOBlcyADEc45nSKGWcUCeO0mg3Xil@redis-11546.crce194.ap-seast-1-1.ec2.cloud.redislabs.com:11546
+ 1184  sudo apt install redis-tools
+ 1185  ls
+ 1186  clear
+ 1187  redis-cli -u redis://default:KvVXOBlcyADEc45nSKGWcUCeO0mg3Xil@redis-11546.crce194.ap-seast-1-1.ec2.cloud.redislabs.com:11546
+ 1188  redis-cli ping
+ 1189  sudo shutdown now
+ 1190  ls
+ 1191  redis-cli
+ 1192  redis-cli -u redis://default:KvVXOBlcyADEc45nSKGWcUCeO0mg3Xil@redis-11546.crce194.ap-seast-1-1.ec2.cloud.redislabs.com:11546
+ 1193  clear
+ 1194  mkdir client
+ 1195  mkdir server
+ 1196  redis-cli -u redis://default:KvVXOBlcyADEc45nSKGWcUCeO0mg3Xil@redis-11546.crce194.ap-seast-1-1.ec2.cloud.redislabs.com:11546
+ 1197  ls
+ 1198  clear
+ 1199  cd client/
+ 1200  pnpm create vite
+ 1201  ls
+ 1202  rm -rf *
+ 1203  ls
+ 1204  clear
+ 1205  cd ..
+ 1206  ls
+ 1207  cd ~
+ 1208  cd Desktop/projects/redis_learn/
+ 1209  ls
+ 1210  rmdir lib
+ 1211  cd server/
+ 1212  npm init -y
+ 1213  touch app.js
+ 1214  npm i
+ 1215  node -v
+ 1216  clear
+ 1217  npm i ioredis
+ 1218  npm i nodemon
+ 1219  nodemon 
+ 1220  nodemon
+ 1221  npm start
+ 1222  npm run start
+ 1223  npm i express
+ 1224  npm run start
+ 1225  mkdir middleware
+ 1226  touch middleware/redis.js
+ 1227  npm run dev
+ 1228  npm run start
+ 1229  git init
+ 1230  git add .
+ 1231  touch .gitignore
+ 1232  ls
+ 1233  git add .
+ 1234  git commit -m "Finalized the redis learning guide"
+ 1235  git commit -m "first commit"
+ 1236  git add .
+ 1237  git commit -m "first commit"
+ 1238  git branch -M main
+ 1239  git remote add origin https://github.com/prashant48653c/Redis_Guide.git
+ 1240  git push -u origin main
+ 1241  git add .
+ 1242  git commit -m "Added env for hiding confidential fields"
+ 1243  git push origin main
+ 1244  ls
+ 1245  sudo shutdown now
+ 1246  sudo apt update && sudo apt upgrade -y
+ 1247  sudo apt install ca-certificates curl gnupg lsb-release -y
+ 1248  sudo mkdir -p /etc/apt/keyrings
+ 1249  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+ 1250  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+ 1251    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1252  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+ 1253  cat /etc/os-release
+ 1254  sudo rm -f /etc/apt/sources.list.d/docker.list
+ 1255  sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
+ 1256  cat /var/lib/docker
+ 1257  ls /
+ 1258  clear
+ 1259  sudo shutdown now
+ 1260  sudo reboot now
+ 1261  sudo shutdown now
+ 1262  ls
+ 1263  git pull origin https://github.com/SaradBhatta12/courier/tree/development
+ 1264  git clone -b development https://github.com/SaradBhatta12/courier.git
+ 1265  clear
+ 1266  git clone https://github.com/SaradBhatta12/courier/tree/main
+ 1267  git clone -b main --single-branch https://github.com/SaradBhatta12/courier.git
+ 1268  git clone -b development https://github.com/SaradBhatta12/courier.git
+ 1269  git config --global --unset credential.helper
+ 1270  git clone -b development --single-branch https://github.com/SaradBhatta12/courier.git
+ 1271  git clone https://github.com/SaradBhatta12/courier.git
+ 1272  git clone git@github.com:SaradBhatta12/courier.git
+ 1273  ls
+ 1274  mv courier/ Desktop/courier
+ 1275  ls
+ 1276  cd Desktop/
+ 1277  ls
+ 1278  mv courier/ projects/courier
+ 1279  cd projects/
+ 1280  ls
+ 1281  clear
+ 1282  ls
+ 1283  code courier/
+ 1284  ls
+ 1285  cd Desk
+ 1286  cd Desktop/
+ 1287  ls
+ 1288  cd projects/
+ 1289  ls
+ 1290  unzip timer-back.zip 
+ 1291  ls
+ 1292  rm -rf timer-back.zip 
+ 1293  ls
+ 1294  chmod +x timer-back/
+ 1295  ls
+ 1296  code timer-back/
+ 1297  sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
+ 1298  ls
+ 1299  touch Dockerfile
+ 1300  node -v
+ 1301  sudo apt install ca-certificates curl
+ 1302  sudo install -m 0755 -d /etc/apt/keyrings
+ 1303  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+ 1304  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1305  sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+ 1306  sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+ 1307  Types: deb
+ 1308  URIs: https://download.docker.com/linux/ubuntu
+ 1309  Suites: $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
+ 1310  Components: stable
+ 1311  Architectures: $(dpkg --print-architecture)
+ 1312  Signed-By: /etc/apt/keyrings/docker.asc
+ 1313  EOF
+ 1314  sudo apt update
+ 1315  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+ 1316  sudo systemctl status docker
+ 1317  sudo systemctl stop docker
+ 1318  sudo systemctl start docker
+ 1319  sudo systemctl status docker
+ 1320  sudo docker run hello-world
+ 1321  docker ps
+ 1322  sudo docker ps
+ 1323  sudo docker images
+ 1324  sudo docker run f9078146db2e
+ 1325  clear
+ 1326  code .
+ 1327  npm init -y
+ 1328  npm i express
+ 1329  npm i zod
+ 1330  npm run dev
+ 1331  npm i nodemon
+ 1332  npm run start
+ 1333  node index.js
+ 1334  npm run start
+ 1335  npm start
+ 1336  npm run start
+ 1337  docker build -t docker_online
+ 1338  docker build -t docker_online .
+ 1339  sudo docker build -t docker_online .
+ 1340  docker images
+ 1341  sudo docker images
+ 1342  sudo docker run -p 5000:3000 d492a3e55b41
+ 1343  sudo docker run -p 5000:3000 d492a3e55b41 -dt
+ 1344  sudo docker run -p 5000:3000 d492a3e55b41 -t
+ 1345  sudo docker run -p 5000:3000 d492a3e55b41 -d
+ 1346  sudo docker run -d -p 5000:3000 d492a3e55b41 
+ 1347  ps
+ 1348  docker ps
+ 1349  sudo docker ps
+ 1350  sudo docker kill b7e9e03b2f14
+ 1351  sudo docker run -d -p 5000:3000 d492a3e55b41 
+ 1352  sudo docker stop bb31
+ 1353  sudo docker images
+ 1354  sudo docker ps
+ 1355  sudo docker run -d -p 5000
+ 1356  sudo docker run -d -p 5000 d492a3e55b41
+ 1357  sudo docker images
+ 1358  sudo docker ps
+ 1359  sudo docker stop *
+ 1360  sudo docker stop d894
+ 1361  docker build -t docker_online .
+ 1362  sudo docker build -t docker_online .
+ 1363  history
+ 1364  sudo docker run -d pp 5000:3000 d492
+ 1365  sudo docker images
+ 1366  sudo docker run -p 5000:3000 7e783a9f907b
+ 1367  sudo docker run --env-file .env  -p 5000:3000 7e783a9f907b
+ 1368  sudo docker run --env-file .env -p 5000:3000 7e783a9f907b
+ 1369  sudo docker images
+ 1370  sudo docker rmi 7e
+ 1371  sudo docker rmi 7e783a9f907b
+ 1372  sudo docker ps
+ 1373  sudo docker rmi -f 7e783a9f907b
+ 1374  sudo docker build -t docker_online .
+ 1375  sudo docker images
+ 1376  sudo docker run --env-file .env -p 3000:3000 e9f88b3f7cb0
+ 1377  npm i dotenv
+ 1378  sudo docker run --env-file .env -p 3000:3000 e9f88b3f7cb0
+ 1379  sudo docker build -t docker_online .
+ 1380  sudo docker images
+ 1381  sudo docker run --env-file .env -p 3000:3000 e9f88b3f7cb0
+ 1382  sudo docker run --env-file .env -p 3000:3000 2243037c4077
+ 1383  ls
+ 1384  sudo shutdown now
+ 1385  touch .gitignore
+ 1386  git init
+ 1387  git add .
+ 1388  git commit -m "Docker images and containers"
+ 1389  git branch -M main
+ 1390  git remote add origin https://github.com/prashant48653c/docker_learn.git
+ 1391  git push -u origin main
+ 1392  clear
+ 1393  ls
+ 1394  git rm -r --cached node_modules
+ 1395  git rm --cached .env
+ 1396  git commit -m "Remove ignored files"
+ 1397  git push
+ 1398  ls -a
+ 1399  ls
+ 1400  sudo docker ps
+ 1401  sudo docker stop d126ac4b3569
+ 1402  touch history_dockerfile
+ 1403  rm Dockerfile 
+ 1404  ls
+ 1405  docker init
+ 1406  sudo docker init
+ 1407  docker
+ 1408  docker --version
+ 1409  docker help | grep init
+ 1410  docker init
+ 1411  sudo docker image
+ 1412  sudo docker images
+ 1413  sudo docker stop 2243037c4077
+ 1414  sudo docker rmi docker_online
+ 1415  sudo docker rmi 2243037c4077
+ 1416  sudo docker stop 2243037c4077
+ 1417  clear
+ 1418  docker ps -a
+ 1419  sudo docker ps -a
+ 1420  sudo docker rm 6865a3933482
+ 1421  sudo docker ps -a
+ 1422  sudo docker image
+ 1423  sudo docker images
+ 1424  sudo docker rmi f0ef1d92fa65
+ 1425  sudo docker stop 4814aaa5ab1f
+ 1426  sudo docker rmi f0ef1d92fa65
+ 1427  sudo docker rm 4814aaa5ab1f
+ 1428  sudo docker rmi f0ef1d92fa65
+ 1429  sudo docker rm 10997eefe0d4
+ 1430  sudo docker container prune
+ 1431  docker images
+ 1432  sudo docker images
+ 1433  sudo docker rmi f0ef1d92fa65
+ 1434  sudo docker images
+ 1435  ls
+ 1436  sudo docker build -t dock .
+ 1437  sudo docker images
+ 1438  sudo docker ps
+ 1439  sudo docker status 2243037c4077
+ 1440  sudo docker container prune
+ 1441  sudo docker rmi 2243037c4077
+ 1442  sudo docker run -p 4000:3000 5e59dab614b6
+ 1443  sudo docker run -d -p 4000:3000 5e59dab614b6
+ 1444  docker log
+ 1445  docker logs 5e59dab614b6
+ 1446  sudo docker logs 5e59dab614b6
+ 1447  clear
+ 1448  docker ps
+ 1449  sudo docker ps
+ 1450  sudo docker logs 03e794cfa448
+ 1451  sudo docker stop 03e794cfa448
+ 1452  clear
+ 1453  sudo docker build -d -t 4000:3000 .
+ 1454  clear
+ 1455  sudo docker images
+ 1456  sudo docker container purn
+ 1457  sudo docker container purne
+ 1458  sudo docker container prune
+ 1459  ls
+ 1460  sudo docker ps
+ 1461  docker build -t myapp .
+ 1462  sudo docker build -t myapp .
+ 1463  sudo docker images
+ 1464  sudo docker run -d -p 3000:3000 220MB 
+ 1465  sudo docker run -d -p 3000:3000 13be5cbccf84
+ 1466  sudo docker ps
+ 1467  sudo docker logs 13be5cbccf84
+ 1468  sudo docker logs ea3a05adfb37d937f70a3d0665319646858d749880211998af65a763b4a3a55a
+ 1469  sudo docker ps
+ 1470  sudo docker stop 7d5aabcd3bf9
+ 1471  ls
+ 1472  sudo docker run -d -e MYSQL_ROOT_PASSWORD=root 
+ 1473  sudo docker images
+ 1474  sudo docker run -d -e MYSQL_ROOT_PASSWORD=root f0ef1d92fa65
+ 1475  sudo docker exec -it 9be0d700b59faea968d5c202d948f9ac84db0f463a681e18de546f15cc9d6b83 bash
+ 1476  ls
+ 1477  clear
+ 1478  git add .
+ 1479  git commit -m "Docker crucial commands, initializing multiple images and ran SQL client under an container"
+ 1480  ls
+ 1481  touch day2.log
+ 1482  history > day2.log 
