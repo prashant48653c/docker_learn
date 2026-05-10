@@ -4,6 +4,7 @@ const app = express();
 require("dotenv").config()
 // create a route for the home page
 app.get('/', (req, res) => {
+  console.log("Home page accessed");
   res.send(process.env.data);
 });
 
